@@ -1,0 +1,37 @@
+#wrapper{
+	
+
+}
+
+#gamebox{
+	margin: 0 auto;
+	background: #ccc;
+	width: 760px;
+	height: 700px;
+	position: relative;
+}
+.yes{
+	height: 30px;
+	width: 30px;
+	margin: 2px;
+	display: inline-block;
+	background: #0f0;
+}
+.no{
+	height: 30px;
+	width: 30px;
+	margin: 2px;
+	display: inline-block;
+	background: #f00;
+}
+.mig{
+	top:0px;
+	left: 0px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 15px 30px 15px;
+	border-color: transparent transparent #007bff transparent;
+	z-index: 99;
+	position: absolute;
+}
