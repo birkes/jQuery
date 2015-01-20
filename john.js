@@ -15,8 +15,12 @@ function checkKey(e){
     }
     else if (e.keyCode == '37') {
        // left arrow
+       degrees = 270;
+       $(".mig").css({'transform' : 'rotate('+ degrees +'deg)'})
     }
     else if (e.keyCode == '39') {
+     degrees = 90;
+       $(".mig").css({'transform' : 'rotate('+ degrees +'deg)'})
        // right arrow
     }
 
